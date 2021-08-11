@@ -10,33 +10,13 @@
         <div class="todolist">
             <h1 class="title">To-Do List</h1>
             <form action="#" method="post" class="form">
-                <input type="text" class="input" id="input-task" name="task" autocomplete="off">
+                <input type="text" id="input-task" name="task" autocomplete="off" class="input">
                 <button id="add-task-button" type="button" name="addtask" class="btn">Add Task</button>
-                <ul id="task-list" class="task__list">
-                    <li class="task__item">
-                        <div class="task">
-                            <input type="checkbox">
-                            <span class="task">Learn Java</span>
-                        </div>
-                        <button type="button" class="delete-btn">X</button>
-                    </li>
-                    <li class="task__item">
-                        <div class="task">
-                            <input type="checkbox">
-                            <span class="task">Learn C++</span>
-                        </div>
-                        <button type="button" class="delete-btn">X</button>
-                    </li>
-                    <li class="task__item">
-                        <div class="task">
-                            <input type="checkbox">
-                            <span class="task">Learn Python</span>
-                        </div>
-                        <button type="button" class="delete-btn">X</button>
-                    </li>
-                </ul>
+                <ul id="task-list"></ul>
             </form>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
